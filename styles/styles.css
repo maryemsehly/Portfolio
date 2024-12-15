@@ -977,3 +977,14 @@ section {
     font-size: 4rem;
   }
 }
+
+
+.certificate-link {
+  text-decoration: none;
+}
+
+.certificate-link:hover {
+  color: var(--color-secondary);
+  scale: 1.1;
+  font-weight: bold;
+}

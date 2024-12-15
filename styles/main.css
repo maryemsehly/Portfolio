@@ -924,4 +924,13 @@ section {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+.certificate-link {
+  text-decoration: none;
+}
+
+.certificate-link:hover 
+{
+  color: var(--color-secondary);
+  scale: 1.1;
+  font-weight: bold;
+}
