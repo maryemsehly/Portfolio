@@ -634,6 +634,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  color: #27AE60;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
@@ -657,6 +658,7 @@ section {
 }
 .main-btn:hover::before {
   width: 100%;
+  color: #dbe1e8;
   height: 100%;
   background-color: var(--color-secondary);
   transform: translateX(0);
