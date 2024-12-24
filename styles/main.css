@@ -621,6 +621,10 @@ section {
   align-self: center;
 }
 
+
+
+
+/* change here */
 .main-btn {
   border-radius: 30px;
   color: inherit;
@@ -631,10 +635,11 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
+  background-color: #191d2b;
 }
 .main-btn .btn-text {
   padding: 0 2rem;
-  color: #27AE60;
+  color: var(--color-white);
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
@@ -655,6 +660,7 @@ section {
 }
 .main-btn:hover {
   transition: all 0.4s ease-out;
+  background-color: var(--color-secondary);
 }
 .main-btn:hover::before {
   width: 100%;
